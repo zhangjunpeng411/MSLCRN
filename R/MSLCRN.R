@@ -14,7 +14,6 @@ library(parallel)
 library(survival)
 library(igraph)
 library(clusterProfiler)
-library(DOSE)
 
 ## Transpose expression dataset (rows are genes, columns are samples) 
 ## into expression dataset (rows are samples, columns are genes).
