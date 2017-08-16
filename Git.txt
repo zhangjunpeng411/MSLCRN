@@ -1,0 +1,7 @@
+1. In RStudio, click New project as normal. Click Version Control.
+2. In Clone Git Repository, enter the GitHub repository URL as per below. Change the project directory name if necessary.
+
+3. git remote add origin https://github.com/zhangjunpeng411/MSLCRN.git
+4. git config remote.origin.url git@github.com:zhangjunpeng411/MSLCRN.git
+5. git pull -f origin master
+6. git push -f origin master
