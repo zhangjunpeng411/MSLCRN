@@ -1,3 +1,4 @@
+## Git steps
 1. In RStudio, click New project as normal. Click Version Control.
 2. In Clone Git Repository, enter the GitHub repository URL as per below. Change the project directory name if necessary.
 
