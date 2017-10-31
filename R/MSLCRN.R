@@ -129,10 +129,10 @@ moduleSurvival <- function(Modulelist, ExpData, SurvData, devidePercentage = 0.5
     LogRank_res <- do.call(rbind, LogRank)
 
     if (length(myfit) >= 1) {        
-        colnames(LogRank_res) <- c("Chi-square", "p-value", "HR", "HRlow95", "HRup95")
-	names(LogRank) <- names(Modulelist)
-	LogRank[sapply(LogRank, is.null)] <- NULL
-        rownames(LogRank_res) <- paste("Module", names(LogRank))
+      colnames(LogRank_res) <- c("Chi-square", "p-value", "HR", "HRlow95", "HRup95")
+      names(LogRank) <- seq_along(LogRank)
+      LogRank[sapply(LogRank, is.null)] <- NULL
+      rownames(LogRank_res) <- paste("Module", names(LogRank))
     }
 
     return(LogRank_res)
