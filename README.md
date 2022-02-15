@@ -7,7 +7,7 @@ MSLCRN: a novel method for inferring module-specific lncRNA-mRNA causal regulato
 
 Aug 6th, 2017, written by Junpeng Zhang
 
-Contact: zhangjunpeng_411@yahoo.com
+Contact: zhangjunpeng411@gmail.com
 
 
 ########################################################################
